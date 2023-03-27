@@ -1,0 +1,86 @@
+Body{
+    Display:grid;
+    place-items: center;
+}
+
+@font-face {
+    font-family:Quicksand;
+    src: url("Fuentes/static/Quicksand-Regular.ttf");
+    src: url("Fuentes/Quicksand-VariableFont_wght.ttf"),
+    url("Fuentes/static/Quicksand-SemiBold.ttf"),
+    url("Fuentes/static/Quicksand-Bold.ttf"),
+    url("Fuentes/static/Quicksand-Light.ttf"),
+    url("Fuentes/static/Quicksand-Medium.ttf") ;
+    }
+
+    * {
+        font-family: myFirstFont;
+     }
+
+.container{
+     Display:grid;
+     place-items: center;
+}
+
+.validationTooltip01{
+    Padding: 5%
+}
+
+.mb-3 row{
+    padding-left: 1%;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.orilla{
+    height:fit-content;
+    width: 430px;
+    width: medium;
+    border:  solid black;
+    Padding: 5%
+}
+
+h3{
+    width:50px;
+    font-size: 2px;
+    font-family:'QuickSandBold';
+    margin-top:-10px;
+    margin-left:1px;
+    background:white;
+}
+
+.form-inline{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    width: 50px;;
+    justify-content: Center;
+    color: black;
+    margin: 3%;
+
+}
+
+.Guardar{
+    margin-bottom: 3%;
+    background-color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cancelar{
+    margin-bottom: 3%;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    background-color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form-inline{
+    
+    border-style: solid;
+    width:medium;
+    color: black;
+    background-color: white;
+}
+
